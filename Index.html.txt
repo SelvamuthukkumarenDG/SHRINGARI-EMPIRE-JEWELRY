@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ornament Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Playfair Display', serif;
+    }
+    body {
+      background-color: #fff8ef;
+      color: #333;
+    }
+    header {
+      background-color: #d4af37;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f3e5c3;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .category {
+      margin-bottom: 50px;
+    }
+    .category h2 {
+      border-bottom: 2px solid #d4af37;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      color: #d4af37;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+    }
+    .product p {
+      color: #d4af37;
+      font-weight: bold;
+    }
+    .about, .contact {
+      margin: 50px 0;
+      text-align: center;
+    }
+    footer {
+      background-color: #d4af37;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ornament Elegance</h1>
+    <p>Timeless Beauty. Handcrafted Designs.</p>
+  </header>
+
+  <nav>
+    <a href="#necklaces">Necklaces</a>
+    <a href="#earrings">Earrings</a>
+    <a href="#bangles">Bangles</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section class="category" id="necklaces">
+      <h2>Necklaces</h2>
+      <div class="products">
+        <div class="product">
+          <img src="?C:\Users\Admin1\Downloads\shringari logo.jpeg" alt="Necklace" />
+          <h3>Gold Floral Necklace</h3>
+          <p>?5,999</p>
+        </div>
+        <!-- More products -->
+      </div>
+    </section>
+
+    <section class="category" id="earrings">
+      <h2>Earrings</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="Earring" />
+          <h3>Crystal Drop Earrings</h3>
+          <p>?2,499</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="category" id="bangles">
+      <h2>Bangles</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="Bangle" />
+          <h3>Traditional Kadas</h3>
+          <p>?3,299</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>We specialize in premium handcrafted ornaments that blend tradition with modern elegance. Each piece is made with love and attention to detail.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>?? DM us on
+         <a href="https://www.instagram.com/shringari_empire?igsh=eHVlZm5kNXBuaHpq" target="_blank" style="color:#d4af37; font-weight:bold;">
+      @shringari_empire
+           </a>
+    </section>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/919965996409" target="_blank">WhatsApp</a>
+
+  <footer>
+    <p>© 2025 Ornament Elegance. All rights reserved.</p>
+  </footer>
+</body>
+</html>
