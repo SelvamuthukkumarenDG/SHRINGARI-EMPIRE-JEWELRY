@@ -167,7 +167,7 @@
   <a class="whatsapp" href="https://wa.me/919965996409" target="_blank">WhatsApp</a>
 
   <footer>
-    <p>© 2025 Ornament Elegance. All rights reserved.</p>
+    <p>Â© 2025 Ornament Elegance. All rights reserved.</p>
   </footer>
 </body>
 </html>
